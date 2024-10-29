@@ -7,7 +7,7 @@ It also couldn’t load .t64 files, so a .t64 to .d64 converter has been impleme
 Load T64 files as if it were a disk file using LOAD"*",8,1.
 
 <h3>Controls</h3>
-Use your index fingers on the hand controllers to operate the C64 keyboard or the controllers. <br/><br/>To use your hands, set down the controllers.
+Use your index fingers on the hand controllers to operate the C64 keyboard or the controllers. To use your hands, place the controllers on a flat surface. Your hands will then become visible. <br/><br/>
 To load a disk, simply touch the handle on the 1541 drive, which will open all available files in the C64 emulator.
 <br/><br/>         
 The controllers also function as joysticks for gameplay. When using the left joystick to control, the fire button is on the right controller, and vice versa.
