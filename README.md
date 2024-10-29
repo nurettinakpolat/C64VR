@@ -24,7 +24,7 @@ Move these ROM files into the Resources/Roms/ folder, and rename each file to in
 - kernal.rom.bytes<br/>
 - basic.rom.bytes<br/>
 - d1541.rom.bytes<br/>
-- char.rom.bytes.<br/>
+- char.rom.bytes<br/>
 
 <h3>Getting Started</h3>
 Once all files are set up, build the project in Unity and enjoy your C64 emulator!
