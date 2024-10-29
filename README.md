@@ -4,7 +4,7 @@ This project is a Unity adaptation of sharp-c64 by Stuart Carnie https://github.
 The original project lacked sound support, so a SID player has been added. (Thx to Lasse Oorni https://github.com/cadaver/oldschoolengine2)
 <br/><br/>
 It also couldn’t load .t64 files, so a .t64 to .d64 converter has been implemented. <br/><br/>
-To load a .t64 file, first convert it to .d64, then load it as if it were a disk file using LOAD"*",8,1.
+Load T64 files as if it were a disk file using LOAD"*",8,1.
 
 <h3>Controls</h3>
 Use your index fingers on the hand controllers to operate the C64 keyboard or the controllers. <br/><br/>To use your hands, set down the controllers.
