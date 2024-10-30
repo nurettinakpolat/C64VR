@@ -316,9 +316,9 @@ public class C65 : MonoBehaviour
             frodo.TheC64.joykey = (byte)(254 - buttonPressedLeft);
         
         if ((inputcontroller.leftJoyButtonDown.Down || inputcontroller.leftJoyButtonDown.Hold) && (inputcontroller.leftJoyButtonLeft.Down || inputcontroller.leftJoyButtonLeft.Hold))
-            frodo.TheC64.joykey =(byte) (245 - buttonPressedLeft);
+            frodo.TheC64.joykey =(byte) (249 - buttonPressedLeft);
         else if ((inputcontroller.leftJoyButtonDown.Down || inputcontroller.leftJoyButtonDown.Hold) && (inputcontroller.leftJoyButtonRight.Down || inputcontroller.leftJoyButtonRight.Hold))
-            frodo.TheC64.joykey = (byte)(249 - buttonPressedLeft);
+            frodo.TheC64.joykey = (byte)(245 - buttonPressedLeft);
         else if ((inputcontroller.leftJoyButtonUp.Down || inputcontroller.leftJoyButtonUp.Hold) && (inputcontroller.leftJoyButtonRight.Down || inputcontroller.leftJoyButtonRight.Hold))
             frodo.TheC64.joykey = (byte)(246 - buttonPressedLeft);
         else if ((inputcontroller.leftJoyButtonUp.Down || inputcontroller.leftJoyButtonUp.Hold) && (inputcontroller.leftJoyButtonLeft.Down || inputcontroller.leftJoyButtonLeft.Hold))
