@@ -218,22 +218,22 @@ public class XRInputController : MonoBehaviour
         deviceLeft.TryGetFeatureValue(CommonUsages.primary2DAxis, out leftJoystick);
         deviceRight.TryGetFeatureValue(CommonUsages.primary2DAxis, out rightJoystick);
 
-        dummy = leftJoystick.x > 0.5f;
+        dummy = leftJoystick.x > 0.7f;
         UpdateState(ref leftJoyButtonRight, dummy, ref dummy);
-        dummy = leftJoystick.x < -0.5f;
+        dummy = leftJoystick.x < -0.7f;
         UpdateState(ref leftJoyButtonLeft, dummy, ref dummy);
-        dummy = leftJoystick.y > 0.5f;
+        dummy = leftJoystick.y > 0.7f;
         UpdateState(ref leftJoyButtonUp, dummy, ref dummy);
-        dummy = leftJoystick.y < -0.5f;
+        dummy = leftJoystick.y < -0.7f;
         UpdateState(ref leftJoyButtonDown, dummy, ref dummy);
 
-        dummy = rightJoystick.x > 0.5f;
+        dummy = rightJoystick.x > 0.7f;
         UpdateState(ref rightJoyButtonRight, dummy, ref dummy);
-        dummy = rightJoystick.x < -0.5f;
+        dummy = rightJoystick.x < -0.7f;
         UpdateState(ref rightJoyButtonLeft, dummy, ref dummy);
-        dummy = rightJoystick.y > 0.5f;
+        dummy = rightJoystick.y > 0.7f;
         UpdateState(ref rightJoyButtonUp, dummy, ref dummy);
-        dummy = rightJoystick.y < -0.5f;
+        dummy = rightJoystick.y < -0.7f;
         UpdateState(ref rightJoyButtonDown, dummy, ref dummy);
 
 
