@@ -314,7 +314,7 @@ public class C65 : MonoBehaviour
             frodo.TheC64.joykey = (byte)(253 - buttonPressedLeft);
         else if (inputcontroller.leftJoyButtonUp.Down || inputcontroller.leftJoyButtonUp.Hold)
             frodo.TheC64.joykey = (byte)(254 - buttonPressedLeft);
-        /*
+        
         if ((inputcontroller.leftJoyButtonDown.Down || inputcontroller.leftJoyButtonDown.Hold) && (inputcontroller.leftJoyButtonLeft.Down || inputcontroller.leftJoyButtonLeft.Hold))
             frodo.TheC64.joykey =(byte) (245 - buttonPressedLeft);
         else if ((inputcontroller.leftJoyButtonDown.Down || inputcontroller.leftJoyButtonDown.Hold) && (inputcontroller.leftJoyButtonRight.Down || inputcontroller.leftJoyButtonRight.Hold))
@@ -323,7 +323,7 @@ public class C65 : MonoBehaviour
             frodo.TheC64.joykey = (byte)(246 - buttonPressedLeft);
         else if ((inputcontroller.leftJoyButtonUp.Down || inputcontroller.leftJoyButtonUp.Hold) && (inputcontroller.leftJoyButtonLeft.Down || inputcontroller.leftJoyButtonLeft.Hold))
             frodo.TheC64.joykey = (byte)(250 - buttonPressedLeft);
-        */
+        
 
 
         //Joy Right button Left X
@@ -340,7 +340,7 @@ public class C65 : MonoBehaviour
             frodo.TheC64.joykey = (byte)(126 - buttonPressedRight);
         else if (inputcontroller.rightJoyButtonDown.Down || inputcontroller.rightJoyButtonDown.Hold)
             frodo.TheC64.joykey = (byte)(125 - buttonPressedRight);
-        /*
+        
         if ((inputcontroller.rightJoyButtonDown.Down || inputcontroller.rightJoyButtonDown.Hold) && (inputcontroller.rightJoyButtonLeft.Down || inputcontroller.rightJoyButtonLeft.Hold))
             frodo.TheC64.joykey = (byte)(121 - buttonPressedRight);
         else if ((inputcontroller.rightJoyButtonDown.Down || inputcontroller.rightJoyButtonDown.Hold) && (inputcontroller.rightJoyButtonRight.Down || inputcontroller.rightJoyButtonRight.Hold))
@@ -349,7 +349,7 @@ public class C65 : MonoBehaviour
             frodo.TheC64.joykey = (byte)(118 - buttonPressedRight);
         else if ((inputcontroller.rightJoyButtonUp.Down || inputcontroller.rightJoyButtonUp.Hold) && (inputcontroller.rightJoyButtonLeft.Down || inputcontroller.rightJoyButtonLeft.Hold))
             frodo.TheC64.joykey = (byte)(122 - buttonPressedRight);
-        */
+        
     }
 
     public void LoadD64(Toggle button)
