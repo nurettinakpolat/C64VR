@@ -202,6 +202,10 @@ public class C65 : MonoBehaviour
             }
         }
     }
+    private void OnApplicationQuit()
+    {
+        frodo.TheC64.Quit();
+    }
 
     void StartEmu()
     {
