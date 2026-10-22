@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class C64 : MonoBehaviour
 {
+/*
     // Start is called before the first frame update
     C64Emulator c64;
     Texture2D texture;
@@ -34,16 +35,6 @@ public class C64 : MonoBehaviour
             c.r = (byte)((c64.videobuffer.dispaybuffer[i] >> 16) & 0xFF);
             c.a = 255;/// (byte)((c64.videobuffer.dispaybuffer[i] >> 24) & 0xFF) / 255.0f;
             pixels[i] = c;
-            /*
-            int x = i % Video.VIC.X_RESOLUTION;
-            int y = i / Video.VIC.Y_RESOLUTION;
-            Color c;
-            c.b =  (byte)((c64.videobuffer.dispaybuffer[i]) & 0xFF) / 255.0f;
-            c.g =  (byte)((c64.videobuffer.dispaybuffer[i] >> 8) & 0xFF) / 255.0f;
-            c.r =  (byte)((c64.videobuffer.dispaybuffer[i] >> 16) & 0xFF) / 255.0f;
-            c.a = 1.0f;/// (byte)((c64.videobuffer.dispaybuffer[i] >> 24) & 0xFF) / 255.0f;
-            texture.SetPixel(x , y, c );
-            */
         }
         texture.SetPixels32(pixels);
         texture.Apply();
@@ -85,21 +76,12 @@ public class C64 : MonoBehaviour
         {
             int k = (int)(e.keyCode);// - KeyCode.Keypad0);
             c64.KeyPressed(k);
-            //if (k >= 0 && k <= 9)
-            //{
-            //    Debug.Log("pressed num pad key " + k);
-            //    // Do something here
-            //}
         }
         if (e.type == EventType.KeyUp)
         {
             int k = (int)(e.keyCode);// - KeyCode.Keypad0);
             c64.KeyReleased(k);
-            //if (k >= 0 && k <= 9)
-            //{
-            //    Debug.Log("pressed num pad key " + k);
-            //    // Do something here
-            //}
         }
     }
+    */
 }
